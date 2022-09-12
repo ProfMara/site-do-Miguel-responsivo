@@ -1,0 +1,67 @@
+body{
+    background: black;
+    color:white;
+}
+
+#topo{
+   background-image: linear-gradient(rgb(88, 176, 227), rgb(0, 145, 255),  rgb(0, 128, 100), darkgreen 98%);
+   text-align: center;
+   
+}
+
+p{
+   font-size: 40px;
+   border: solid 9px;
+   padding:30px;
+   margin:30px;
+
+
+}
+
+.linha{
+   background:red;
+   height:6px;
+}
+
+h2{
+   font-size: 30px;
+}
+
+
+#bio{
+   text-align: center;
+   margin: 150px;
+   border:solid cyan 9px;
+   padding:140px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    cursor:pointer;
+}
+
+.link{
+    float:left;
+    padding: 9px 5px;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#nome{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    color:cyan
+}
+
+#videos, #info, #imagens{
+   display: flex;
+   justify-content: center;
+   margin:50px;
+}
+
+a{
+   color:white;
+   text-decoration: wavy;
+}
